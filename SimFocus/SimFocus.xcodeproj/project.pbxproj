@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018D6E93CB6EEB5A5860CB5F /* Pods_SimFocus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C8041B8D9E889453847AD7 /* Pods_SimFocus.framework */; };
 		A85E755027F81619006296D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E754F27F81619006296D9 /* AppDelegate.swift */; };
 		A85E755227F81619006296D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E755127F81619006296D9 /* SceneDelegate.swift */; };
 		A85E755427F81619006296D9 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E755327F81619006296D9 /* MainScreen.swift */; };
@@ -21,6 +22,8 @@
 		A85E758627F81EBB006296D9 /* Storyboared.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E758527F81EBB006296D9 /* Storyboared.swift */; };
 		A85E758A27F820AF006296D9 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85E758927F820AF006296D9 /* Dashboard.storyboard */; };
 		A85E758C27F8217A006296D9 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E758B27F8217A006296D9 /* Dashboard.swift */; };
+		ABE88C472766415BD4E808DE /* Pods_SimFocusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D849A9FD2640825048180C9 /* Pods_SimFocusTests.framework */; };
+		E57DB30A0AB7C7D2640CC99E /* Pods_SimFocus_SimFocusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63BB2ED52F06E2F44F29429 /* Pods_SimFocus_SimFocusUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13C8041B8D9E889453847AD7 /* Pods_SimFocus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimFocus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0815253CD1582C1C82C6BE /* Pods-SimFocus-SimFocusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimFocus-SimFocusUITests.debug.xcconfig"; path = "Target Support Files/Pods-SimFocus-SimFocusUITests/Pods-SimFocus-SimFocusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51A982B7627617009FA0B284 /* Pods-SimFocus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimFocus.debug.xcconfig"; path = "Target Support Files/Pods-SimFocus/Pods-SimFocus.debug.xcconfig"; sourceTree = "<group>"; };
+		62EA7918B55E510AA32B1446 /* Pods-SimFocus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimFocus.release.xcconfig"; path = "Target Support Files/Pods-SimFocus/Pods-SimFocus.release.xcconfig"; sourceTree = "<group>"; };
+		679B8390F8CD4E098B49C4C6 /* Pods-SimFocusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimFocusTests.debug.xcconfig"; path = "Target Support Files/Pods-SimFocusTests/Pods-SimFocusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D849A9FD2640825048180C9 /* Pods_SimFocusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimFocusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A152D78C211EC5C244D8633D /* Pods-SimFocusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimFocusTests.release.xcconfig"; path = "Target Support Files/Pods-SimFocusTests/Pods-SimFocusTests.release.xcconfig"; sourceTree = "<group>"; };
 		A85E754C27F81619006296D9 /* SimFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85E754F27F81619006296D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A85E755127F81619006296D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +69,8 @@
 		A85E758527F81EBB006296D9 /* Storyboared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboared.swift; sourceTree = "<group>"; };
 		A85E758927F820AF006296D9 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		A85E758B27F8217A006296D9 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		EF698CA3D7A09592C70344E6 /* Pods-SimFocus-SimFocusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimFocus-SimFocusUITests.release.xcconfig"; path = "Target Support Files/Pods-SimFocus-SimFocusUITests/Pods-SimFocus-SimFocusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F63BB2ED52F06E2F44F29429 /* Pods_SimFocus_SimFocusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimFocus_SimFocusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018D6E93CB6EEB5A5860CB5F /* Pods_SimFocus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE88C472766415BD4E808DE /* Pods_SimFocusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E57DB30A0AB7C7D2640CC99E /* Pods_SimFocus_SimFocusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87F8944FA9487898FD567EC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13C8041B8D9E889453847AD7 /* Pods_SimFocus.framework */,
+				F63BB2ED52F06E2F44F29429 /* Pods_SimFocus_SimFocusUITests.framework */,
+				6D849A9FD2640825048180C9 /* Pods_SimFocusTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A85E754327F81619006296D9 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +118,8 @@
 				A85E756527F8161A006296D9 /* SimFocusTests */,
 				A85E756F27F8161A006296D9 /* SimFocusUITests */,
 				A85E754D27F81619006296D9 /* Products */,
+				B23E38ED562C22DAAD8A1E06 /* Pods */,
+				87F8944FA9487898FD567EC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +193,20 @@
 			name = Dashboard;
 			sourceTree = "<group>";
 		};
+		B23E38ED562C22DAAD8A1E06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51A982B7627617009FA0B284 /* Pods-SimFocus.debug.xcconfig */,
+				62EA7918B55E510AA32B1446 /* Pods-SimFocus.release.xcconfig */,
+				2E0815253CD1582C1C82C6BE /* Pods-SimFocus-SimFocusUITests.debug.xcconfig */,
+				EF698CA3D7A09592C70344E6 /* Pods-SimFocus-SimFocusUITests.release.xcconfig */,
+				679B8390F8CD4E098B49C4C6 /* Pods-SimFocusTests.debug.xcconfig */,
+				A152D78C211EC5C244D8633D /* Pods-SimFocusTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A85E757627F8161A006296D9 /* Build configuration list for PBXNativeTarget "SimFocus" */;
 			buildPhases = (
+				310A528BBA929216ED3BA58D /* [CP] Check Pods Manifest.lock */,
 				A85E754827F81619006296D9 /* Sources */,
 				A85E754927F81619006296D9 /* Frameworks */,
 				A85E754A27F81619006296D9 /* Resources */,
+				8A39833C71A4789519E1E6EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A85E757927F8161A006296D9 /* Build configuration list for PBXNativeTarget "SimFocusTests" */;
 			buildPhases = (
+				AC4D389F09ED7AFDD16F9435 /* [CP] Check Pods Manifest.lock */,
 				A85E755E27F8161A006296D9 /* Sources */,
 				A85E755F27F8161A006296D9 /* Frameworks */,
 				A85E756027F8161A006296D9 /* Resources */,
@@ -208,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A85E757C27F8161A006296D9 /* Build configuration list for PBXNativeTarget "SimFocusUITests" */;
 			buildPhases = (
+				084DB3E22F005E7FB364F7D6 /* [CP] Check Pods Manifest.lock */,
 				A85E756827F8161A006296D9 /* Sources */,
 				A85E756927F8161A006296D9 /* Frameworks */,
 				A85E756A27F8161A006296D9 /* Resources */,
+				983A26EE0F1F001AFD90BB59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,6 +338,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		084DB3E22F005E7FB364F7D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimFocus-SimFocusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		310A528BBA929216ED3BA58D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimFocus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A39833C71A4789519E1E6EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimFocus/Pods-SimFocus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimFocus/Pods-SimFocus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimFocus/Pods-SimFocus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		983A26EE0F1F001AFD90BB59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimFocus-SimFocusUITests/Pods-SimFocus-SimFocusUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimFocus-SimFocusUITests/Pods-SimFocus-SimFocusUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimFocus-SimFocusUITests/Pods-SimFocus-SimFocusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC4D389F09ED7AFDD16F9435 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimFocusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A85E754827F81619006296D9 /* Sources */ = {
@@ -478,6 +627,7 @@
 		};
 		A85E757727F8161A006296D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A982B7627617009FA0B284 /* Pods-SimFocus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -505,6 +655,7 @@
 		};
 		A85E757827F8161A006296D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EA7918B55E510AA32B1446 /* Pods-SimFocus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -532,6 +683,7 @@
 		};
 		A85E757A27F8161A006296D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679B8390F8CD4E098B49C4C6 /* Pods-SimFocusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +708,7 @@
 		};
 		A85E757B27F8161A006296D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A152D78C211EC5C244D8633D /* Pods-SimFocusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -580,6 +733,7 @@
 		};
 		A85E757D27F8161A006296D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0815253CD1582C1C82C6BE /* Pods-SimFocus-SimFocusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -602,6 +756,7 @@
 		};
 		A85E757E27F8161A006296D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF698CA3D7A09592C70344E6 /* Pods-SimFocus-SimFocusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
