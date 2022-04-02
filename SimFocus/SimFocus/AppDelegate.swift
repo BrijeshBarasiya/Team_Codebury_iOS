@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  SimFocus
-//
-//  Created by Brijesh Barasiya on 02/04/22.
-//
-
 import UIKit
 
 @main
