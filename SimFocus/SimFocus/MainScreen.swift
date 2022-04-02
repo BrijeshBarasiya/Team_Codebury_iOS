@@ -6,7 +6,7 @@ class MainScreen: UIViewController, Storyboarded {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        WebServices.getLogin()
     }
 
 

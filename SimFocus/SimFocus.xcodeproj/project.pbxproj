@@ -22,6 +22,9 @@
 		A85E758627F81EBB006296D9 /* Storyboared.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E758527F81EBB006296D9 /* Storyboared.swift */; };
 		A85E758A27F820AF006296D9 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85E758927F820AF006296D9 /* Dashboard.storyboard */; };
 		A85E758C27F8217A006296D9 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E758B27F8217A006296D9 /* Dashboard.swift */; };
+		A8AFE45227F8553E005AFA50 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFE45127F8553E005AFA50 /* APIServices.swift */; };
+		A8AFE45427F8596F005AFA50 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFE45327F8596F005AFA50 /* WebServices.swift */; };
+		A8AFE45627F86091005AFA50 /* DataClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFE45527F86091005AFA50 /* DataClasses.swift */; };
 		ABE88C472766415BD4E808DE /* Pods_SimFocusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D849A9FD2640825048180C9 /* Pods_SimFocusTests.framework */; };
 		E57DB30A0AB7C7D2640CC99E /* Pods_SimFocus_SimFocusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63BB2ED52F06E2F44F29429 /* Pods_SimFocus_SimFocusUITests.framework */; };
 /* End PBXBuildFile section */
@@ -69,6 +72,9 @@
 		A85E758527F81EBB006296D9 /* Storyboared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboared.swift; sourceTree = "<group>"; };
 		A85E758927F820AF006296D9 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		A85E758B27F8217A006296D9 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		A8AFE45127F8553E005AFA50 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		A8AFE45327F8596F005AFA50 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		A8AFE45527F86091005AFA50 /* DataClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataClasses.swift; sourceTree = "<group>"; };
 		EF698CA3D7A09592C70344E6 /* Pods-SimFocus-SimFocusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimFocus-SimFocusUITests.release.xcconfig"; path = "Target Support Files/Pods-SimFocus-SimFocusUITests/Pods-SimFocus-SimFocusUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F63BB2ED52F06E2F44F29429 /* Pods_SimFocus_SimFocusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimFocus_SimFocusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -136,8 +142,10 @@
 		A85E754E27F81619006296D9 /* SimFocus */ = {
 			isa = PBXGroup;
 			children = (
+				A8AFE44F27F854BB005AFA50 /* Authenticate */,
 				A85E758827F82097006296D9 /* Dashboard */,
 				A85E758727F8202D006296D9 /* AppFiles */,
+				A8AFE45027F854EA005AFA50 /* API */,
 				A85E758027F81C7A006296D9 /* CoordinatorFiles */,
 			);
 			path = SimFocus;
@@ -176,8 +184,6 @@
 				A85E755D27F8161A006296D9 /* Info.plist */,
 				A85E754F27F81619006296D9 /* AppDelegate.swift */,
 				A85E755127F81619006296D9 /* SceneDelegate.swift */,
-				A85E755327F81619006296D9 /* MainScreen.swift */,
-				A85E755527F81619006296D9 /* Main.storyboard */,
 				A85E755827F8161A006296D9 /* Assets.xcassets */,
 				A85E755A27F8161A006296D9 /* LaunchScreen.storyboard */,
 			);
@@ -193,6 +199,25 @@
 			name = Dashboard;
 			sourceTree = "<group>";
 		};
+		A8AFE44F27F854BB005AFA50 /* Authenticate */ = {
+			isa = PBXGroup;
+			children = (
+				A85E755327F81619006296D9 /* MainScreen.swift */,
+				A85E755527F81619006296D9 /* Main.storyboard */,
+			);
+			name = Authenticate;
+			sourceTree = "<group>";
+		};
+		A8AFE45027F854EA005AFA50 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A8AFE45127F8553E005AFA50 /* APIServices.swift */,
+				A8AFE45327F8596F005AFA50 /* WebServices.swift */,
+				A8AFE45527F86091005AFA50 /* DataClasses.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		B23E38ED562C22DAAD8A1E06 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,7 +228,6 @@
 				679B8390F8CD4E098B49C4C6 /* Pods-SimFocusTests.debug.xcconfig */,
 				A152D78C211EC5C244D8633D /* Pods-SimFocusTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -449,11 +473,14 @@
 			files = (
 				A85E758227F81C9C006296D9 /* AppCoordinator.swift in Sources */,
 				A85E758427F81D03006296D9 /* MainScreenCoordinator.swift in Sources */,
+				A8AFE45227F8553E005AFA50 /* APIServices.swift in Sources */,
 				A85E755427F81619006296D9 /* MainScreen.swift in Sources */,
 				A85E755027F81619006296D9 /* AppDelegate.swift in Sources */,
 				A85E758627F81EBB006296D9 /* Storyboared.swift in Sources */,
 				A85E758C27F8217A006296D9 /* Dashboard.swift in Sources */,
 				A85E755227F81619006296D9 /* SceneDelegate.swift in Sources */,
+				A8AFE45627F86091005AFA50 /* DataClasses.swift in Sources */,
+				A8AFE45427F8596F005AFA50 /* WebServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
