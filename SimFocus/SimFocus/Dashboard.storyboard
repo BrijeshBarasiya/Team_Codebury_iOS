@@ -1,32 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IrI-GI-gO9">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Dashboard-->
+        <!--Search-->
+        <scene sceneID="UXS-9f-ZAL">
+            <objects>
+                <viewController id="jo4-As-Qrs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j4P-zv-v4V">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7aZ-pM-oiX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Search" image="icon_search" landscapeImage="icon_search" id="jU3-1I-wOg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gru-up-1AX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="87" y="-1023"/>
+        </scene>
+        <!--Home-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
                 <viewController storyboardIdentifier="Dashboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="Dashboard" customModule="SimFocus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="1CY-vY-lef">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1CY-vY-lef" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="08x-3B-asI"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1CY-vY-lef" secondAttribute="trailing" id="Qtp-w2-Ljr"/>
+                            <constraint firstItem="1CY-vY-lef" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="egN-du-DMI"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="1CY-vY-lef" secondAttribute="bottom" id="kW3-wy-NBB"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="icons-home" landscapeImage="icons-home" selectedImage="selected_icon_home" id="3ke-4O-Sy9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133" y="101"/>
+            <point key="canvasLocation" x="912" y="-530"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="qt9-w3-Mvu">
+            <objects>
+                <viewController storyboardIdentifier="ProfileViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cuG-H9-8oX" customClass="ProfileViewController" customModule="SimFocus" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t0Q-SJ-JWg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="userProfile" translatesAutoresizingMaskIntoConstraints="NO" id="b9P-9m-NPC">
+                                <rect key="frame" x="147" y="94" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="BD3-po-qiP"/>
+                                    <constraint firstAttribute="height" constant="120" id="bhi-sJ-75m"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHY-ea-Zfp">
+                                <rect key="frame" x="132.5" y="244" width="149.5" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Select Photo">
+                                    <fontDescription key="titleFontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="pickImage:" destination="cuG-H9-8oX" eventType="touchUpInside" id="ijt-4e-bG3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MOc-gm-ezf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lHY-ea-Zfp" firstAttribute="centerX" secondItem="MOc-gm-ezf" secondAttribute="centerX" id="cPE-uO-Jcz"/>
+                            <constraint firstItem="b9P-9m-NPC" firstAttribute="top" secondItem="MOc-gm-ezf" secondAttribute="top" constant="50" id="g0k-mx-4AI"/>
+                            <constraint firstItem="b9P-9m-NPC" firstAttribute="centerX" secondItem="MOc-gm-ezf" secondAttribute="centerX" id="kFI-cF-Lzt"/>
+                            <constraint firstItem="lHY-ea-Zfp" firstAttribute="top" secondItem="b9P-9m-NPC" secondAttribute="bottom" constant="30" id="ur6-FI-9A1"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="icon_profile" landscapeImage="icon_profile" selectedImage="icon_profile" id="BHb-f2-447"/>
+                    <connections>
+                        <outlet property="btnPickImage" destination="lHY-ea-Zfp" id="9PI-hW-eY8"/>
+                        <outlet property="imageView" destination="b9P-9m-NPC" id="UgE-eP-hHP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IYm-AV-kYo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="188" y="827"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="wIa-6p-cew">
+            <objects>
+                <viewController id="PnV-yu-xBX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bf7-aU-5QV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="81q-Jd-jdf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chat" image="icon_Chat" landscapeImage="icon_Chat" selectedImage="selected_icon_Chat" id="KQf-5A-35f">
+                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="hyZ-C0-KoB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BU4-26-bTl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="912" y="352"/>
+        </scene>
+        <!--Custom Tab Bar View Controller-->
+        <scene sceneID="M4N-qd-ssu">
+            <objects>
+                <tabBarController storyboardIdentifier="DashboardTabbar" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="IrI-GI-gO9" customClass="SSCustomTabBarViewController" customModule="SSCustomTabbar" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ncd-OG-fr3" customClass="SSCustomTabBar" customModule="SSCustomTabbar">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="simform_500"/>
+                        <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="layerFillColor">
+                                <color key="value" name="simform_500"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedTabTintColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="waveHeight">
+                                <real key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.58163159098846229" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="0.20000000000000001"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="barHeight">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="upAnimationPoint">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="viewControllers" id="Niw-IB-zkM"/>
+                        <segue destination="PnV-yu-xBX" kind="relationship" relationship="viewControllers" id="xET-uw-39D"/>
+                        <segue destination="jo4-As-Qrs" kind="relationship" relationship="viewControllers" id="M6o-Ox-Wg9"/>
+                        <segue destination="cuG-H9-8oX" kind="relationship" relationship="viewControllers" id="nXW-ed-h3C"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ykw-fA-LcW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-99" y="95"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="icon_Chat" width="30" height="30"/>
+        <image name="icon_profile" width="24" height="24"/>
+        <image name="icon_search" width="24" height="24"/>
+        <image name="icons-home" width="24" height="24"/>
+        <image name="selected_icon_Chat" width="25" height="25"/>
+        <image name="selected_icon_home" width="24" height="24"/>
+        <image name="userProfile" width="100" height="100"/>
+        <namedColor name="simform_500">
+            <color red="0.93725490196078431" green="0.32549019607843138" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

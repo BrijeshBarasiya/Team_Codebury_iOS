@@ -4,7 +4,7 @@ enum Decidor {
     case job
     case department
 }
-class SignUpScreen: UIViewController, Storyboarded {
+class SignUpScreen: UIViewController {
     @IBOutlet weak var scroller: UIScrollView!
     @IBOutlet weak var userImage: UIImageView!
     @IBOutlet weak var userFirtName: UITextField!
@@ -19,7 +19,6 @@ class SignUpScreen: UIViewController, Storyboarded {
     @IBOutlet weak var maleButton: UIButton!
     @IBOutlet weak var femaleButton: UIButton!
     @IBOutlet weak var userDOB: UITextField!
-    var navCoordinator: MainScreenCoordinator?
     let manualDatePicker = UIDatePicker()
     let dateFormetter = DateFormatter()
     let picker = UIPickerView()
