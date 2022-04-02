@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		A85E755027F81619006296D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E754F27F81619006296D9 /* AppDelegate.swift */; };
 		A85E755227F81619006296D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E755127F81619006296D9 /* SceneDelegate.swift */; };
-		A85E755427F81619006296D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E755327F81619006296D9 /* ViewController.swift */; };
+		A85E755427F81619006296D9 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E755327F81619006296D9 /* MainScreen.swift */; };
 		A85E755727F81619006296D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85E755527F81619006296D9 /* Main.storyboard */; };
 		A85E755927F8161A006296D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85E755827F8161A006296D9 /* Assets.xcassets */; };
 		A85E755C27F8161A006296D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85E755A27F8161A006296D9 /* LaunchScreen.storyboard */; };
 		A85E756727F8161A006296D9 /* SimFocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E756627F8161A006296D9 /* SimFocusTests.swift */; };
 		A85E757127F8161A006296D9 /* SimFocusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E757027F8161A006296D9 /* SimFocusUITests.swift */; };
 		A85E757327F8161A006296D9 /* SimFocusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E757227F8161A006296D9 /* SimFocusUITestsLaunchTests.swift */; };
+		A85E758227F81C9C006296D9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E758127F81C9C006296D9 /* AppCoordinator.swift */; };
+		A85E758427F81D03006296D9 /* MainScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E758327F81D03006296D9 /* MainScreenCoordinator.swift */; };
+		A85E758627F81EBB006296D9 /* Storyboared.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E758527F81EBB006296D9 /* Storyboared.swift */; };
+		A85E758A27F820AF006296D9 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85E758927F820AF006296D9 /* Dashboard.storyboard */; };
+		A85E758C27F8217A006296D9 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E758B27F8217A006296D9 /* Dashboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,7 @@
 		A85E754C27F81619006296D9 /* SimFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85E754F27F81619006296D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A85E755127F81619006296D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A85E755327F81619006296D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A85E755327F81619006296D9 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		A85E755627F81619006296D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A85E755827F8161A006296D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A85E755B27F8161A006296D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		A85E756C27F8161A006296D9 /* SimFocusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimFocusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85E757027F8161A006296D9 /* SimFocusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimFocusUITests.swift; sourceTree = "<group>"; };
 		A85E757227F8161A006296D9 /* SimFocusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimFocusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A85E758127F81C9C006296D9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A85E758327F81D03006296D9 /* MainScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenCoordinator.swift; sourceTree = "<group>"; };
+		A85E758527F81EBB006296D9 /* Storyboared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboared.swift; sourceTree = "<group>"; };
+		A85E758927F820AF006296D9 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		A85E758B27F8217A006296D9 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +109,9 @@
 		A85E754E27F81619006296D9 /* SimFocus */ = {
 			isa = PBXGroup;
 			children = (
-				A85E757F27F81633006296D9 /* AppFiles */,
+				A85E758827F82097006296D9 /* Dashboard */,
+				A85E758727F8202D006296D9 /* AppFiles */,
+				A85E758027F81C7A006296D9 /* CoordinatorFiles */,
 			);
 			path = SimFocus;
 			sourceTree = "<group>";
@@ -121,18 +133,37 @@
 			path = SimFocusUITests;
 			sourceTree = "<group>";
 		};
-		A85E757F27F81633006296D9 /* AppFiles */ = {
+		A85E758027F81C7A006296D9 /* CoordinatorFiles */ = {
 			isa = PBXGroup;
 			children = (
+				A85E758127F81C9C006296D9 /* AppCoordinator.swift */,
+				A85E758327F81D03006296D9 /* MainScreenCoordinator.swift */,
+				A85E758527F81EBB006296D9 /* Storyboared.swift */,
+			);
+			path = CoordinatorFiles;
+			sourceTree = "<group>";
+		};
+		A85E758727F8202D006296D9 /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A85E755D27F8161A006296D9 /* Info.plist */,
 				A85E754F27F81619006296D9 /* AppDelegate.swift */,
 				A85E755127F81619006296D9 /* SceneDelegate.swift */,
-				A85E755327F81619006296D9 /* ViewController.swift */,
+				A85E755327F81619006296D9 /* MainScreen.swift */,
 				A85E755527F81619006296D9 /* Main.storyboard */,
 				A85E755827F8161A006296D9 /* Assets.xcassets */,
 				A85E755A27F8161A006296D9 /* LaunchScreen.storyboard */,
-				A85E755D27F8161A006296D9 /* Info.plist */,
 			);
-			path = AppFiles;
+			name = AppFiles;
+			sourceTree = "<group>";
+		};
+		A85E758827F82097006296D9 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				A85E758927F820AF006296D9 /* Dashboard.storyboard */,
+				A85E758B27F8217A006296D9 /* Dashboard.swift */,
+			);
+			name = Dashboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +273,7 @@
 				A85E755C27F8161A006296D9 /* LaunchScreen.storyboard in Resources */,
 				A85E755927F8161A006296D9 /* Assets.xcassets in Resources */,
 				A85E755727F81619006296D9 /* Main.storyboard in Resources */,
+				A85E758A27F820AF006296D9 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,8 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A85E755427F81619006296D9 /* ViewController.swift in Sources */,
+				A85E758227F81C9C006296D9 /* AppCoordinator.swift in Sources */,
+				A85E758427F81D03006296D9 /* MainScreenCoordinator.swift in Sources */,
+				A85E755427F81619006296D9 /* MainScreen.swift in Sources */,
 				A85E755027F81619006296D9 /* AppDelegate.swift in Sources */,
+				A85E758627F81EBB006296D9 /* Storyboared.swift in Sources */,
+				A85E758C27F8217A006296D9 /* Dashboard.swift in Sources */,
 				A85E755227F81619006296D9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
