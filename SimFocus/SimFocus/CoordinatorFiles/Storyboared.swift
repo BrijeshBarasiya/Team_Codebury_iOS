@@ -1,8 +1,8 @@
+import Foundation
 import UIKit
 
 enum Storyboard: String {
     case main = "Main"
-    case dashboard = "Dashboard"
 }
 
 protocol Storyboarded {

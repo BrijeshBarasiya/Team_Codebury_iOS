@@ -25,6 +25,8 @@
 		A8AFE45227F8553E005AFA50 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFE45127F8553E005AFA50 /* APIServices.swift */; };
 		A8AFE45427F8596F005AFA50 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFE45327F8596F005AFA50 /* WebServices.swift */; };
 		A8AFE45627F86091005AFA50 /* DataClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFE45527F86091005AFA50 /* DataClasses.swift */; };
+		A8AFE45827F8F249005AFA50 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFE45727F8F249005AFA50 /* SignUpScreen.swift */; };
+		A8AFE45A27F8F4F9005AFA50 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFE45927F8F4F9005AFA50 /* LoginScreen.swift */; };
 		ABE88C472766415BD4E808DE /* Pods_SimFocusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D849A9FD2640825048180C9 /* Pods_SimFocusTests.framework */; };
 		E57DB30A0AB7C7D2640CC99E /* Pods_SimFocus_SimFocusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63BB2ED52F06E2F44F29429 /* Pods_SimFocus_SimFocusUITests.framework */; };
 /* End PBXBuildFile section */
@@ -75,6 +77,8 @@
 		A8AFE45127F8553E005AFA50 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
 		A8AFE45327F8596F005AFA50 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 		A8AFE45527F86091005AFA50 /* DataClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataClasses.swift; sourceTree = "<group>"; };
+		A8AFE45727F8F249005AFA50 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		A8AFE45927F8F4F9005AFA50 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		EF698CA3D7A09592C70344E6 /* Pods-SimFocus-SimFocusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimFocus-SimFocusUITests.release.xcconfig"; path = "Target Support Files/Pods-SimFocus-SimFocusUITests/Pods-SimFocus-SimFocusUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F63BB2ED52F06E2F44F29429 /* Pods_SimFocus_SimFocusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimFocus_SimFocusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -204,6 +208,8 @@
 			children = (
 				A85E755327F81619006296D9 /* MainScreen.swift */,
 				A85E755527F81619006296D9 /* Main.storyboard */,
+				A8AFE45727F8F249005AFA50 /* SignUpScreen.swift */,
+				A8AFE45927F8F4F9005AFA50 /* LoginScreen.swift */,
 			);
 			name = Authenticate;
 			sourceTree = "<group>";
@@ -473,8 +479,10 @@
 			files = (
 				A85E758227F81C9C006296D9 /* AppCoordinator.swift in Sources */,
 				A85E758427F81D03006296D9 /* MainScreenCoordinator.swift in Sources */,
+				A8AFE45827F8F249005AFA50 /* SignUpScreen.swift in Sources */,
 				A8AFE45227F8553E005AFA50 /* APIServices.swift in Sources */,
 				A85E755427F81619006296D9 /* MainScreen.swift in Sources */,
+				A8AFE45A27F8F4F9005AFA50 /* LoginScreen.swift in Sources */,
 				A85E755027F81619006296D9 /* AppDelegate.swift in Sources */,
 				A85E758627F81EBB006296D9 /* Storyboared.swift in Sources */,
 				A85E758C27F8217A006296D9 /* Dashboard.swift in Sources */,
