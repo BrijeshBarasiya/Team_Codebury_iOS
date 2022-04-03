@@ -6,7 +6,6 @@
 //
 
 import UIKit
-
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -14,11 +13,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let _ = (scene as? UIWindowScene) else { return }
-        let navController = UINavigationController()
-        let appCoordinator = AppCoordinator(navController)
-        appCoordinator.start()
-        window?.rootViewController = navController
-        window?.makeKeyAndVisible()
+        
+//        let navController = UINavigationController()
+//        let appCoordinator = AppCoordinator(navController)
+//        appCoordinator.start()
+//        window?.rootViewController = navController
+//        window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

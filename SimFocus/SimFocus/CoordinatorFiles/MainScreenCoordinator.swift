@@ -10,7 +10,7 @@ class MainScreenCoordinator: Coordinator {
     }
     
     func start() {
-        let firstVC = MainScreen.instantiate(from: .main)
+        let firstVC = LoginScreen.instantiate(from: .main)
         firstVC.navCoordinator = self
         navController.pushViewController(firstVC, animated: true)
     }
