@@ -1,11 +1,10 @@
 import UIKit
 import Firebase
 import FirebaseStorage
-class LoginScreen: UIViewController, Storyboarded {
+class LoginScreen: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var scroller: UIScrollView!
-    var navCoordinator: MainScreenCoordinator?
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var password: UITextField!
     

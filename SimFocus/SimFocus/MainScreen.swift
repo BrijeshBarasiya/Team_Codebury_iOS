@@ -1,12 +1,9 @@
 import UIKit
 
-class MainScreen: UIViewController, Storyboarded {
+class MainScreen: UIViewController {
 
-    var navCoordinator: MainScreenCoordinator?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
 
 
